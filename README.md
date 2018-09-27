@@ -8,4 +8,6 @@ Backup your Sonicwalls to FTP
 Recommend - 
  - Create a file called ~/.ssh/config
  - nano ~/.ssh/config
- - Add single line - StrictHostKeyChecking no
+ - Add single line StrictHostKeyChecking no
+
+This is to get around SSH wanting to approve the fingerprint on SSH Connections.
