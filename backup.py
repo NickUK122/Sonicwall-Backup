@@ -3,7 +3,7 @@ import pexpect, time
 
 #List all your Sonicwalls here
 firewalls = (
-	    ('IPHERE','USERNAME', 'PASSWORD', 'NAME'),
+	('IPHERE','USERNAME', 'PASSWORD', 'NAME'),
         ('IPHERE','USERNAME', 'PASSWORD', 'NAME'),
         ('IPHERE','USERNAME', 'PASSWORD', 'NAME'),
 )
